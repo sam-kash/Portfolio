@@ -7,18 +7,23 @@ export default function Intro() {
         <p>I add value to systems via code and ideas</p>
 
         {/* Resume link */}
-        <a
-          href="/Resume_main.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume-link"
-        >
-          Resume →
-        </a>
+<a
+  href={`${import.meta.env.BASE_URL}Resume_main.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="resume-link"
+>
+  Resume →
+</a>
+
       </div>
 
       <div className="pfp-wrapper">
-        <img src="/board.jpg" alt="profile" className="pfp" />
+       <img
+          src={`${import.meta.env.BASE_URL}board.jpg`}
+          alt="profile"
+           className="pfp"
+/>
       </div>
     </div>
   );
