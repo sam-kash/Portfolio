@@ -1,6 +1,8 @@
 import Intro from "./components/Intro";
 import GitHubChart from "./components/GitHubChart";
 import Projects from "./components/Projects";
+import WorkExperience from "./components/WorkExperience";
+import Footer from "./components/footer";
 import "./App.css";
 
 function App() {
@@ -11,7 +13,10 @@ function App() {
       <div className="content">
         <GitHubChart />
         <Projects />
+        <WorkExperience />
       </div>
+
+      <Footer /> {/* 👈 social links live here */}
     </div>
   );
 }
