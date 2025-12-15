@@ -48,7 +48,8 @@ const projects = [
     tech: [
         "TypeScript",
         "JavaScript"
-    ]
+    ],
+    link: "https://github.com/sam-kash/old-tuf",
   }
 ];
 
